@@ -1,16 +1,27 @@
 <resources>
 
     <!-- Base application theme -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/white_status_bar</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/white_status_bar</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:windowFullscreen">false</item>
     </style>
 
     <!-- Splash screen theme -->
-    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@color/colorPrimary</item>
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <!-- Login and SignUp screen theme -->
+    <style name="LoginTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
     </style>
 
 </resources>

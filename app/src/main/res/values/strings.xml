@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Hakwonga</string>
+    <string name="app_name">학원가</string>
+    <string name="app_slogan">학원 검색 및 일정관리 앱</string>
+
+    <string name="hint_email"><font size="13">이메일</font></string>
+    <string name="hint_password"><font size="13">비밀번호</font></string>
+
+    <string name="button_login">로그인</string>
+    <string name="button_signup_student">회원가입 (학생)</string>
+    <string name="button_signup_parent">회원가입 (학부모)</string>
+    <string name="button_forgot_password">비밀번호를 잊으셨나요?</string>
 </resources>

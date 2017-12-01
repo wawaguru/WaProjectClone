@@ -27,13 +27,8 @@
 
     <!-- Actionbar -->
     <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid">
-        <item name="elevation">0dp</item>
+        <item name="android:elevation">0dp</item>
         <item name="titleTextStyle">@style/ActionBarTitle</item>
-    </style>
-
-    <style name="ActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/blue</item>
-        <item name="android:fontFamily">@font/default_font</item>
     </style>
 
 </resources>

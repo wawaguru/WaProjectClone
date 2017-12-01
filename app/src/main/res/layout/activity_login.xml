@@ -10,90 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="59dp"
         android:paddingRight="22dp"
         android:paddingLeft="22dp"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center_horizontal">
 
-        <ImageView
-            android:layout_width="85dp"
-            android:layout_height="87dp"
-            android:src="@drawable/app_logo"
-            android:scaleType="center"/>
+        <include layout="@layout/content_logo_slogan" />
 
-        <TextView
-            style="@style/TextViewStandard"
-            android:layout_marginTop="10dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:textSize="30sp"
-            android:textColor="@color/cool_black"
-            android:text="@string/app_name"/>
-
-        <TextView
-            style="@style/TextViewStandard"
-            android:layout_marginTop="5dp"
-            android:textSize="13sp"
-            android:textColor="@color/cool_grey"
-            android:text="@string/app_slogan" />
-
-        <EditText
-            style="@style/TextInputStandard"
-            android:id="@+id/editText_email_address"
-            android:layout_marginTop="69dp"
-            android:inputType="textWebEmailAddress"
-            android:hint="@string/hint_email" />
-
-        <EditText
-            style="@style/TextInputStandard"
-            android:id="@+id/editText_password"
-            android:inputType="textWebPassword"
-            android:hint="@string/hint_password" />
-
-        <Button
-            style="@style/ButtonText"
-            android:padding="0dp"
-            android:text="@string/button_forgot_password"/>
+        <include layout="@layout/content_login_form" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <Button
-            style="@style/ButtonStandard"
-            android:background="@drawable/login_btn_background"
-            android:text="@string/button_login"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <Button
-                style="@style/ButtonStandard"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/signup_btn_background"
-                android:textColor="@color/cool_grey"
-                android:text="@string/button_signup_student"/>
-
-            <View
-                android:layout_width="2dp"
-                android:layout_height="match_parent"
-                android:background="@color/cool_grey"/>
-
-            <Button
-                style="@style/ButtonStandard"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/signup_btn_background"
-                android:textColor="@color/cool_grey"
-                android:text="@string/button_signup_parent"/>
-        </LinearLayout>
-    </LinearLayout>
+    <include layout="@layout/content_login_signup_button_group" />
 
 </LinearLayout>

@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">학원가</string>
     <string name="app_slogan">학원 검색 및 일정관리 앱</string>
+    <string name="user_type_student">학생가</string>
+    <string name="user_type_parent">학생가</string>
+
+    <string name="tab_name_home">홈</string>
+    <string name="tab_name_store">스토어</string>
+    <string name="tab_name_list">나의학원</string>
+    <string name="tab_name_search">학원검색</string>
+
+    <string name="tab_name_daily">일간</string>
+    <string name="tab_name_weekly">주간</string>
+    <string name="tab_name_monthly">월간</string>
 
     <string name="hint_email"><font size="13">이메일</font></string>
     <string name="hint_password"><font size="13">비밀번호</font></string>

@@ -39,6 +39,34 @@
         <item name="android:textColor">@color/cool_grey</item>
     </style>
 
+    <!-- TabLayout Style -->
+    <style name="TabLayoutStandard" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/white</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabSelectedTextColor">@color/blue</item>
+        <item name="tabTextColor">@color/cool_grey</item>
+        <item name="tabTextAppearance">@style/TabTextStandard</item>
+    </style>
+
+    <!-- Text style for TabLayout -->
+    <style name="TabTextStandard" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/default_font</item>
+    </style>
+
+    <style name="TabTextSchedule" parent="TabTextStandard">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="ScheduleTabLayout" parent="TabLayoutStandard">
+        <item name="tabSelectedTextColor">@color/black</item>
+        <item name="tabTextColor">@color/black</item>
+        <item name="tabBackground">@drawable/selector_schedule_tab</item>
+        <item name="tabTextAppearance">@style/TabTextSchedule</item>
+    </style>
+
     <style name="LoginFormInput" parent="TextInputStandard">
         <item name="android:paddingLeft">7dp</item>
         <item name="android:paddingTop">4dp</item>

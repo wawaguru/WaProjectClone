@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <TextView
+            style="@style/TextViewStandard"
+            android:id="@+id/textView_schedule_type"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/pale_grey"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:id="@+id/view_schedule_indicator"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/card_schedule_indicator_deactive"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:gravity="start|center_vertical">
+
+        <TextView
+            style="@style/TextViewStandard"
+            android:id="@+id/textView_schedule_time"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+        <TextView
+            style="@style/TextViewStandard"
+            android:id="@+id/textView_schedule_description"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+        <TextView
+            style="@style/TextViewStandard"
+            android:id="@+id/textView_schedule_detail_1"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/cool_grey"
+            android:textSize="10sp" />
+
+        <TextView
+            style="@style/TextViewStandard"
+            android:id="@+id/textView_schedule_detail_2"
+            android:gravity="center"
+            android:textColor="@color/cool_grey"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

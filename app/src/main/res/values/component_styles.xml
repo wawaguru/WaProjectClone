@@ -5,6 +5,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">@font/default_font</item>
+        <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
     </style>
@@ -56,15 +57,27 @@
         <item name="android:fontFamily">@font/default_font</item>
     </style>
 
+    <style name="ScheduleTabLayout" parent="TabLayoutStandard">
+        <item name="tabSelectedTextColor">@color/black</item>
+        <item name="tabTextColor">@color/black</item>
+        <item name="tabBackground">@drawable/selector_tab_schedule</item>
+        <item name="tabTextAppearance">@style/TabTextSchedule</item>
+    </style>
+
+    <style name="CalendarTabLayout" parent="TabLayoutStandard">
+        <item name="tabIndicatorHeight">1dp</item>
+        <item name="tabIndicatorColor">@color/blue</item>
+        <item name="tabSelectedTextColor">@color/blue</item>
+        <item name="tabTextColor">@color/cool_grey</item>
+        <item name="tabTextAppearance">@style/TabTextCalendar</item>
+    </style>
+
     <style name="TabTextSchedule" parent="TabTextStandard">
         <item name="android:textSize">13sp</item>
     </style>
 
-    <style name="ScheduleTabLayout" parent="TabLayoutStandard">
-        <item name="tabSelectedTextColor">@color/black</item>
-        <item name="tabTextColor">@color/black</item>
-        <item name="tabBackground">@drawable/selector_schedule_tab</item>
-        <item name="tabTextAppearance">@style/TabTextSchedule</item>
+    <style name="TabTextCalendar" parent="TabTextStandard">
+        <item name="android:textSize">10sp</item>
     </style>
 
     <style name="LoginFormInput" parent="TextInputStandard">

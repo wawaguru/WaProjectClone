@@ -13,6 +13,14 @@
     <string name="tab_name_weekly">주간</string>
     <string name="tab_name_monthly">월간</string>
 
+    <string name="tab_name_monday">월</string>
+    <string name="tab_name_tuesday">화</string>
+    <string name="tab_name_wednesday">수</string>
+    <string name="tab_name_thursday">목</string>
+    <string name="tab_name_friday">금</string>
+    <string name="tab_name_saturday">토</string>
+    <string name="tab_name_sunday">일</string>
+
     <string name="hint_email"><font size="13">이메일</font></string>
     <string name="hint_password"><font size="13">비밀번호</font></string>
 
@@ -20,4 +28,7 @@
     <string name="button_signup_student">회원가입 (학생)</string>
     <string name="button_signup_parent">회원가입 (학부모)</string>
     <string name="button_forgot_password">비밀번호를 잊으셨나요?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- Top border -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pale_grey" />
+
+    <!-- Days of week -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/view_day_of_week"
+            android:id="@+id/day_1" />
+        <include layout="@layout/view_day_of_week"
+            android:id="@+id/day_2" />
+        <include layout="@layout/view_day_of_week"
+            android:id="@+id/day_3" />
+        <include layout="@layout/view_day_of_week"
+            android:id="@+id/day_4" />
+        <include layout="@layout/view_day_of_week"
+            android:id="@+id/day_5" />
+        <include layout="@layout/view_day_of_week"
+            android:id="@+id/day_6" />
+        <include layout="@layout/view_day_of_week"
+            android:id="@+id/day_7" />
+
+    </LinearLayout>
+
+    <!--&lt;!&ndash; Days of month &ndash;&gt;-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_0" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_1" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_2" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_3" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_4" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_5" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_6" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_7" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_8" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_9" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_10" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_11" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_12" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_13" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_14" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_15" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_16" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_17" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_18" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_19" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_20" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_21" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_22" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_23" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_24" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_25" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_26" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_27" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_28" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_29" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_30" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_31" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_32" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_33" />-->
+        <!--<include layout="@layout/view_day_of_month"-->
+            <!--android:id="@+id/cell_34" />-->
+
+    <!--</LinearLayout>-->
+
+    <!-- Bottom border -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pale_grey" />
+
+</LinearLayout>

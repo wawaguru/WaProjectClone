@@ -109,9 +109,7 @@ public class ScheduleDailyFragment extends Fragment {
             public void onTabSelected(TabLayout.Tab tab) {
                 // TODO: Set data for each day
                 // TODO: Remove this later
-                if (tab.getPosition() == 0) {
-                    mockSchedule();
-                }
+                mockSchedule();
             }
 
             @Override

@@ -5,35 +5,20 @@
     android:background="@color/white"
     tools:context="com.nowwego.hakwonga.activities.ScheduleDailyFragment">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <android.support.design.widget.FloatingActionButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="15dp"
-            android:layout_marginEnd="15dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:background="@color/blue"/>
-
-        <LinearLayout
+        <include layout="@layout/content_calendar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="65dp" />
 
-            <include layout="@layout/content_calendar"
-                android:layout_width="match_parent"
-                android:layout_height="65dp" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_schedule_daily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recyclerView_schedule_daily"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-
-    </RelativeLayout>
+    </LinearLayout>
 
 </FrameLayout>

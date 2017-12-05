@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.nowwego.hakwonga.R;
+import com.nowwego.hakwonga.Utils;
 
 public class CalendarDayView extends View {
 
@@ -58,8 +59,14 @@ public class CalendarDayView extends View {
         mIndicator.setVisibility(set ? VISIBLE : GONE);
     }
 
-    public void setOnClickListener(OnClickListener listener) {
-        mView.setOnClickListener(listener);
+    public void setOnClickListener(final OnClickListener listener) {
+        mView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Do something
+                listener.onClick(v);
+            }
+        });
     }
 
     private void inflateView() {
@@ -68,8 +75,12 @@ public class CalendarDayView extends View {
     }
 
     private void initView() {
+        // Set layout params of day view
         ((LinearLayout) mView).setOrientation(LinearLayout.VERTICAL);
-        mView.setLayoutParams(new LinearLayout.LayoutParams(150, 120));
+        mView.setLayoutParams(new LinearLayout.LayoutParams(
+                0, Utils.dpToPx(getContext(),42), 1.0f));
+
+        // Find views on day view
         mDay = mView.findViewById(R.id.day);
         mIndicator = mView.findViewById(R.id.indicator);
     }

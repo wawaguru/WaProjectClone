@@ -175,7 +175,7 @@ public class ScheduleDailyFragment extends Fragment {
     }
 
     // TODO: Connect to user action
-    private void refreshRideList() {
+    private void refreshSchedule() {
         getSchedule();
         notifyDataSetChanged();
     }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_status_bar">#dfdfdf</color>
+    <color name="black">#000000</color>
+    <color name="cool_black">#030303</color>
+    <color name="blue">#3b7cec</color>
+    <color name="blue_clicked">#6b9bed</color>
+    <color name="orange">#ff6e17</color>
+    <color name="pale_grey">#e3e9f2</color>
+    <color name="pale_grey_clicked">#b4b8bf</color>
+    <color name="cool_grey">#a4aab3</color>
+</resources>

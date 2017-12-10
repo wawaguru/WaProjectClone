@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="70dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        style="@style/LoginFormInput"
+        android:id="@+id/editText_email_address"
+        android:inputType="textEmailAddress"
+        android:hint="@string/hint_email" />
+
+    <EditText
+        style="@style/LoginFormInput"
+        android:id="@+id/editText_password"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password"/>
+
+    <Button
+        style="@style/ButtonText"
+        android:id="@+id/button_forgot_password"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/btn_text_background"
+        android:text="@string/button_forgot_password"/>
+
+</LinearLayout>

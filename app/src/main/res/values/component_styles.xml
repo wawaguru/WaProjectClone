@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Text View -->
+    <style name="TextViewStandard">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/default_font</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Standard Text Input -->
+    <style name="TextInputStandard" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Standard solid filled button -->
+    <style name="ButtonStandard" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:fontFamily">@font/default_font</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- Clickable text button -->
+    <style name="ButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:fontFamily">@font/default_font</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/cool_grey</item>
+    </style>
+
+    <!-- TabLayout Style -->
+    <style name="TabLayoutStandard" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/white</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabSelectedTextColor">@color/blue</item>
+        <item name="tabTextColor">@color/cool_grey</item>
+        <item name="tabTextAppearance">@style/TabTextStandard</item>
+    </style>
+
+    <!-- Text style for TabLayout -->
+    <style name="TabTextStandard" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/default_font</item>
+    </style>
+
+    <style name="ScheduleTabLayout" parent="TabLayoutStandard">
+        <item name="tabSelectedTextColor">@color/black</item>
+        <item name="tabTextColor">@color/black</item>
+        <item name="tabBackground">@drawable/selector_tab_schedule</item>
+        <item name="tabTextAppearance">@style/TabTextSchedule</item>
+    </style>
+
+    <style name="CalendarTabLayout" parent="TabLayoutStandard">
+        <item name="tabIndicatorHeight">1dp</item>
+        <item name="tabIndicatorColor">@color/blue</item>
+        <item name="tabSelectedTextColor">@color/blue</item>
+        <item name="tabTextColor">@color/cool_grey</item>
+        <item name="tabTextAppearance">@style/TabTextCalendar</item>
+    </style>
+
+    <style name="TabTextSchedule" parent="TabTextStandard">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TabTextCalendar" parent="TabTextStandard">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="LoginFormInput" parent="TextInputStandard">
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/cool_grey</item>
+    </style>
+
+    <style name="LoginButton" parent="ButtonStandard">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/btn_login_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SignupButton" parent="ButtonStandard">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/btn_signup_background</item>
+        <item name="android:textColor">@color/cool_grey</item>
+    </style>
+
+</resources>
